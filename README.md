@@ -90,10 +90,10 @@ Fitting estimator with 21 features.
 
 ## Deploying the model onto the web 
 
+The optimized model was deployed onto the web utilizing Python Flask. 
 
 <img width="908" alt="form page" src="https://user-images.githubusercontent.com/31297724/82571448-f8147280-9b50-11ea-8d66-ff6707a6d0ec.png">
 
-<img width="716" alt="result page" src="https://user-images.githubusercontent.com/31297724/82571465-fea2ea00-9b50-11ea-96bb-b8891efd0f36.png">
 
 
 
