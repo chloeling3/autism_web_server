@@ -1,6 +1,6 @@
 # A web-based integrated machine learning framework for autism spectrum disorder prediction 
 
-Chloe Ling, Bin Lin, Avner Schlessingler 
+Chloe Ling (MSc.), Bin Lin (MSc., PharmD.), Avner Schlessingler (phD). 
 
 Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, US. 
 
