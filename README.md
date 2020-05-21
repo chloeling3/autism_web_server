@@ -43,8 +43,8 @@ The three models that seem appropriate for the specific problem and will be eval
 After evaluating their performance, we concluded that Logistic Regression is the most appropriate model. 
 
 Below are Overall Receiver Operator Curves for all features (after 10 cross fold validation). 
-![image!](file:///Users/chloeling3/Desktop/Screen%20Shot%202020-05-21%20at%2010.34.41%20AM.png)
 
+<img width="484" alt="Screen Shot 2020-05-21 at 10 34 41 AM" src="https://user-images.githubusercontent.com/31297724/82570601-d1a20780-9b4f-11ea-9cb4-f8d4b6ce059b.png">
 
 
 
