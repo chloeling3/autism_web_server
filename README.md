@@ -1,5 +1,7 @@
 # A web-based integrated machine learning framework for autism spectrum disorder prediction 
 
+Chloe Ling
+
 ## Overview 
 
 This project is 2-fold. We first apply multiple machine learning algorithms to predict for autism spectrum disorder using prenatal drug exposures. 
