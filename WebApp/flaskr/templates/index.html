@@ -1,0 +1,133 @@
+<html>
+<body>
+  <center>
+   <br> 
+   <br> 
+
+    <h3 style="font-size:30px" > Autism Spectrum Disorder Decision Support Tool </h3>
+    <br>
+    <label > This is a web-based integrative machine learning framework that predicts risk to autism spectrum </label> 
+    <br> 
+    <label> disorder using prenatal drug exposures. The data is extracted from electronic medical records from </label> 
+    <br> 
+    <label> a single Israeli Health Maintenance Organization. The trained machine learning model is made available </label> 
+    <br> 
+    <label> to predict autism risk. The model is 71%(approx) accurate.</label>
+    <br> 
+       <label > Instruction: Fill the form with input counts of medications taken from mother-father to predict </label> 
+       <br> 
+       <label> whether a child will be at risk of autism, where .y denotes mother and .x denotes father. </label>
+    <br> 
+    <br> 
+    <br> 
+    <label> Instructions: Please fill in this form with the count of each drugs taken within the last 10 years. </label>
+    <br> 
+    <br> 
+    <br> 
+    <br> 
+
+
+
+<div>
+  <form action="/result" method="POST">
+    <label for="C02C.x"> Cardiovascular system: Beta-blocking agents (C02C.x) </label>
+    <br> 
+    <input type="text" id="C02C.x" name="C02C.x">
+    <br>
+    <br> 
+    <label for="H01A.x">Anterior Pituitary Lobe Hormones (H01A.x) </label>
+    <br>
+    <input type="text" id="H01A.x" name="H01A.x">
+    <br>
+    <br> 
+    <label for="N06B.x"> Psychoanaleptic, psychostimulants, agents used for ADHD and nootropics (N06B.x) </label>
+    <br>
+    <input type="text" id="N06B.x" name="N06B.x">
+    <br>
+    <br> 
+    <label for="V04C.x"> Various, other diagnostic agents (V04C.x) </label>
+    <br>
+    <input type="text" id="V04C.x" name="V04C.x">
+    <br>
+    <br> 
+    <label for="A07B.y"> Alimentary tract and metabolism: antidiarrheals, intestinal, anti-inflammatory/anti-infective agents (A07B.y) </label>
+    <br>
+    <input type="text" id="A07B.y" name="A07B.y">
+    <br>
+    <br>
+    <label for="B02B.y"> Blood/Blood-forming-organ: Antihemorrhagic drugs; Vitamin K and other hemostatics (B02B.y) </label>
+    <br>
+    <input type="text" id="B02B.y" name="B02B.y">
+    <br>
+    <br>
+    <label for="B03B.y"> Blood/Blood-forming-organ: Antianemic drugs, Vitamin B12 and folic acid (B03B.y) </label>
+    <br>
+    <input type="text" id="B03B.y" name="B03B.y">
+    <br>
+    <br>
+    <label for="B05C.y"> Blood/Blood-forming-organ: Blood substitutes and perfusion solutions: irrigating solutions (B05C.y) </label>
+    <br>
+    <input type="text" id="B05C.y" name="B05C.y">
+    <br>
+    <br>
+    <label for="C01C.y"> Cardiovascular System: Cardiac therapy, cardiac stimulants excluding cardiac glycolysides (C01C.y) </label>
+    <br>
+    <input type="text" id="C01C.y" name="C01C.y">
+    <br>
+    <br>
+    <label for="J06B.y"> Anti-infective for systemic use: Immune sera and immunoglobulins (J06B.y) </label>
+    <br> 
+    <input type="text" id="J06B.y" name="J06B.y">
+    <br>
+    <br>
+    <label for="N02B.y"> Nervous system: analgesic drugs; other analgesics and antipyretics (N02B.y) </label>
+    <br>
+    <input type="text" id="N02B.y" name="N02B.y">
+    <br>
+    <br>
+    <label for="S02D.y"> Sensory Drugs: Otologicals (S02D)  </label>
+    <br>
+    <input type="text" id="S02D.y" name="S02D.y">
+    <br>
+    <br>
+    <label for="C01B.y"> Cardiovascular system: cardiac therapy; class 1 and class 3 antiarrhythmic drugs (C01B.y) </label>
+    <br>
+    <input type="text" id="C01B.y" name="C01B.y">
+    <br>
+    <br>
+    <label for="S01F.y">Sensory drugs: Ophthalmological drugs, mydriatics and cycloplegics (S01F.y) </label>
+    <br>
+    <input type="text" id="S01F.y" name="S01F.y">
+    <br>
+    <br>
+    <label for="A03D.y"> Alimentary tract and metabolism: drugs for functional GI disorders, antispasmodics in combination with analgeics (A03D.y) </label>
+    <br>
+    <input type="text" id="A03D.y" name="A03D.y">
+    <br>
+    <br> 
+    <label for="N04B.y"> Nervous system: Antiparkinson drugs; dopaminergic agents (N04B.y) </label>
+    <br>
+    <input type="text" id="N04B.y" name="N04B.y">
+    <br>
+    <br>
+    <label for="N02C.y">Nervous system: Analgesic drugs: migraine medication (N02C.y) </label>
+    <br>
+    <input type="text" id="N02C.y" name="N02C.y">
+    <br>
+    <br>
+    <label for="M05B.y"> Musculoskeletal system: drugs for treatment of bone disease/ drugs affecting bone structure and mineralization (M05B.y) </label>
+    <br>
+    <input type="text" id="M05B.y" name="M05B.y">
+    <br>
+    <br>
+    <label for="G03F.y"> Genito/urinary system: sex hormones (G03F.y) </label>
+    <br>
+    <input type="text" id="G03F.y" name="G03F.y">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</center>
+</body>
+</html>
